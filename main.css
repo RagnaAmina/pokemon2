@@ -1,0 +1,208 @@
+body {
+
+    background-color: #ffffff;
+    
+}
+
+/*logo*/
+
+.logo {
+ 
+  max-width:  5%;
+  height: auto;
+
+}
+/*nav*/
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #f7f7f7;
+  }
+  
+  
+  .topnav a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+ 
+  .topnav a:hover {
+    background-color: #f7f7f7;
+    color: black;
+  }
+  
+  
+  .topnav a.active {
+    background-color: grey;
+    color: white;
+  }
+.topnav {
+    overflow: hidden;
+    background-color: #f7f7f7;
+  }
+  
+ 
+  .topnav a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
+  .topnav a:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .topnav a.active {
+    background-color: red;
+    color: white;
+  }
+  
+
+
+
+  /* Form wrapper styling */
+.form-wrapper {
+    width: 450px;
+    padding: 15px;
+    margin: 150px auto 50px auto;
+    background: #444;
+    background: rgba(0,0,0,.2);
+    border-radius: 10px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+}
+
+
+/* Form text input */
+
+   
+
+/* pokedex */
+
+.search {
+   
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 20px;
+  justify-content: center;
+}
+
+.bigcard {
+  margin: 0 auto;
+width: 100%;
+text-align: center;
+margin-top: 20px;
+}
+
+.card-title {
+  padding: 20px;
+}
+/* card */
+
+#card {
+  height: 350px;
+  width: 250px;
+  background-color: white;
+  text-align: center;
+  
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-shadow: 0px 5px 25px #aaa;
+  border-radius: 10px;
+  display: flex;
+
+  height:380px;
+  background-color: lightblue;
+  margin: 10px auto;
+  position: relative;
+ 
+
+
+
+}
+
+
+/* Form submit button */
+.form-wrapper button {
+    overflow: visible;
+    position: relative;
+    float: right;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 40px;
+    width: 110px;
+    font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    color: #fff;
+    text-transform: uppercase;
+    background: #d83c3c;
+    border-radius: 0 3px 3px 0;      
+    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+}   
+  
+.form-wrapper button:hover{		
+    background: #e54040;
+}	
+  
+.form-wrapper button:active,
+.form-wrapper button:focus{   
+    background: #c42f2f;
+	outline: 0;   
+}
+
+.form-wrapper button:before { /* left arrow */
+    content: '';
+    position: absolute;
+    border-width: 8px 8px 8px 0;
+    border-style: solid solid solid none;
+    border-color: transparent #d83c3c transparent;
+    top: 12px;
+    left: -6px;
+}
+
+.form-wrapper button:hover:before{
+    border-right-color: #e54040;
+}
+
+.form-wrapper button:focus:before,
+.form-wrapper button:active:before{
+        border-right-color: #c42f2f;
+}      
+
+.form-wrapper button::-moz-focus-inner { /* remove extra button spacing for Mozilla Firefox */
+    border: 0;
+    padding: 0;
+}
+
+#trial{
+    width: 25%;
+    height: 200px;
+    background: black;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.trialslot{
+    width: calc(33.33% - 10px);
+    height: 100%;
+
+
+}
+
+.invisible{
+    display: none;
+}
